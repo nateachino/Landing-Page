@@ -4,22 +4,23 @@ body {
 }
 
 img {
-  width: 400px;
-  height: 200px;
+  width: 600px;
+  height: 300px;
+  border-radius: 4px;
 }
 
 .header {
   display: flex;
   background-color: #1f2937;
-  margin: 0;
-  justify-content: space-around;
+
+  justify-content: space-evenly;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .color-one {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .color-one .wrapper {
@@ -31,6 +32,11 @@ img {
   display: flex;
   flex-direction: column;
   width: 400px;
+}
+
+.link-img {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .section-one p {
@@ -62,6 +68,7 @@ li {
 a {
   color: #e5e7eb;
   text-decoration: none;
+  font-size: 18px;
 }
 
 h1 {
@@ -71,16 +78,118 @@ h1 {
   margin-bottom: 0;
 }
 
-h3 {
+h2 {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 #top {
   background-color: #3882f6;
   border: 0;
   padding: 8px;
+  margin-top: 8px;
+  border-radius: 4px;
 }
 
 button {
   border-radius: 4px;
   padding: 16px;
+}
+
+.color-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.box-one {
+  padding: 10px;
+  border: 4px #3882f6 solid;
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.text {
+  display: flex;
+  text-align: center;
+  width: 150px;
+}
+
+.color-three {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  width: 800px;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+#author {
+  display: flex;
+  flex-shrink: 0;
+}
+
+h5 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+#sign {
+}
+
+.last-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 48px;
+  padding-right: 48px;
+  margin: 100px;
+  background-color: #3882f6;
+}
+
+.color-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 200px;
+  margin: 180px;
+  background-color: #3882f6;
 }
